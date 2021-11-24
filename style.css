@@ -17,13 +17,6 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width: 768px) {
-
-    .aaa {
-        text-align: center;
-    }
-
-}
 .app-wrapper {
     display: block;
     width: 500px;
@@ -155,4 +148,12 @@
 
 .app-list__item_edit label {
     display: none;
+}
+
+@media (max-width: 768px) {
+
+    .page-heading {
+        text-align: center;
+    }
+
 }
