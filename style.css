@@ -1,18 +1,22 @@
 /* Basic Style */
+
 .main-page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
+
 .page-heading {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
+
 .page-heading__image {
     width: 100%;
 }
+
 .page-heading__link {
     font-family: fantasy, cursive;
 }
@@ -43,13 +47,16 @@
     display: inline-block;
     flex-grow: 1
 }
+
 .add-item__element {
     display: flex;
 }
+
 .app-list {
     margin: 0;
     padding: 0px;
 }
+
 .app-list__item {
     list-style: none;
 }
@@ -57,6 +64,7 @@
 .app-button{
     outline: none;
 }
+
 .app-button {
     background: none;
     border: 0px;
@@ -66,9 +74,11 @@
     font-family: Lato, sans-serif;
     cursor: pointer;
 }
+
 .app-button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 
 .app-input {
@@ -82,8 +92,8 @@
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
-    /*display: none;*/
 }
+
 .app-input:focus {
     color: #333;
 }
@@ -95,6 +105,7 @@
 }
 
 /* Task list */
+
 .app-list__item {
     overflow: hidden;
     padding: 20px 0;
@@ -109,6 +120,7 @@
     margin: 0 10px;
     vertical-align: middle;
 }
+
 .todo-item__desc {
     padding-left: 10px;
     box-sizing: border-box;
@@ -126,17 +138,20 @@
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .todo-item__delete-btn:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
+
 .app-list_complete .todo-item__desc {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
+
 .app-list__item .app-input {
     display: none;
 }
